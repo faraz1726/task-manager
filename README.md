@@ -15,7 +15,8 @@ The goal of this project is to demonstrate core full stack development skills in
 - Mark tasks as completed  
 - Delete tasks  
 - Real-time UI updates  
-- Basic loading and error handling  
+- Basic loading and error handling
+- Includes bonus features like task filtering, editing, and persistent storage.
 
 ### Bonus Features
 - Filter tasks by:
