@@ -115,4 +115,7 @@ Open frontend/index.html in your browser
 ---
 
 ## Author
+FARAZ AHMED QURESHI
+farazahmedq15@gmail.com
++91 9650558676
 Developed as part of a Full Stack Developer assignment.
