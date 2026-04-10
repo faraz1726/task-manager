@@ -1,4 +1,7 @@
 # Task Manager Full Stack Application
+## Preview
+
+![Task Manager Screenshot](preview.png)
 
 ## Overview
 This project is a simple and efficient Task Manager application built as part of a full stack development assignment. It allows users to create, view, update, and delete tasks using a clean frontend interface and a RESTful backend API.
