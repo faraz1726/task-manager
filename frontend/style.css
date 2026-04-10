@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  width: 420px;
+  padding: 25px;
+  border-radius: 16px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  color: white;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+#status {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  animation: slideUp 0.3s ease;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background: rgba(255,255,255,0.25);
+}
+
+.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.actions button {
+  margin-left: 6px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.actions .complete {
+  background: linear-gradient(135deg, #00ff87, #60efff);
+}
+
+.actions .delete {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  flex: 1;
+  margin: 0 3px;
+  background: rgba(255,255,255,0.2);
+}
+
+.filters button:hover {
+  background: rgba(255,255,255,0.4);
+}
