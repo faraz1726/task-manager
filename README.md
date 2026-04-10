@@ -74,7 +74,7 @@ DELETE /tasks/:id     → Delete a task
 ## How to Run the Project
 
 1. Clone the repository
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/faraz1726/task-manager
 cd task-manager
 
 2. Start the backend server
